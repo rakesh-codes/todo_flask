@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#new-task-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#new-task-input {
+	flex: 1;
+	max-width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+#new-task-submit {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#new-task-submit:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+li {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button-group {
+    display: flex;
+}
+
+.edit{
+	padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: rgba(240, 237, 43, 0.715); /* Apply the same background color to both buttons */
+    color: #000000;
+    transition: background-color 0.3s ease;
+}
+
+.edit:hover{
+	background-color: rgba(248, 243, 0, 0.953); 
+}
+
+#Delete {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: rgba(220, 53, 69, 0.8); /* Change the background color */
+    color: #000000;
+    transition: background-color 0.3s ease;
+}
+
+#Delete:hover {
+    background-color: rgba(220, 53, 69, 1); /* Adjust hover color if needed */
+}
