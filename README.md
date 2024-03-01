@@ -67,4 +67,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ![Todo App](https://github.com/rakesh-codes/todo_flask/assets/132572472/40621079-b4f8-4531-8af8-e9acd1ee9397)
 
-![image](https://github.com/rakesh-codes/todo_flask/assets/132572472/40621079-b4f8-4531-8af8-e9acd1ee9397)
